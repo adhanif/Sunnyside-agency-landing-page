@@ -1,7 +1,11 @@
 import "./App.css";
-
+import Client from "./components/Client";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Client />
+    </>
+  );
 }
 
 export default App;
