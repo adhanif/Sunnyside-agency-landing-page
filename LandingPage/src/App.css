@@ -10,7 +10,6 @@
 
 .transform-text-container {
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   width: 50vw;
