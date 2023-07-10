@@ -22,7 +22,7 @@ h3{
 
 .size{
     background-size: cover;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: flex-end;
     width: 100%;
@@ -115,6 +115,9 @@ padding: 4rem;
 }  
 
 @media screen and (max-width: 699px){
+    .siz{
+        height: 60vh;
+    }
     .grid-container{
         display: flex;
         flex-wrap: wrap;
