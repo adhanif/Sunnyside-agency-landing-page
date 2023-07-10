@@ -116,13 +116,13 @@
     flex-direction: column;
   }
 
-  .transform-text {
-    margin-bottom: 50px;
-  }
-
   .transform-container h1 {
     width: 300px;
     margin-top: 50px;
+  }
+
+  .transform-text {
+    margin-bottom: 50px;
   }
 
   .transform-container p {
@@ -169,6 +169,10 @@
   .transform-container h1 {
     width: 300px;
     margin-top: 50px;
+  }
+
+  .transform-text {
+    margin-bottom: 50px;
   }
 
   .transform-container p {
