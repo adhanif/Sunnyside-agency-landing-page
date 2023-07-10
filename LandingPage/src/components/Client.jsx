@@ -33,6 +33,7 @@ export default function Client() {
             <div className="clients-img">
               <img src="./src/images/image-emily.jpg" alt="" />
             </div>
+
             <p>
               We put our trust in Sunnyside and they delivered, making sure our
               needs were met and deadlines were always hit.
