@@ -1,26 +1,26 @@
+.images  img{
+    width: 25%;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    
+}
+
 .images {
     display: flex;
     flex-direction: row;
     width: 100%;
-    
 }
 
-.item1 {
-    width: 25vw;
-    object-fit: cover;
+@media screen and (max-width: 1100px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .images  img{
+        width: 100%;
+        /* width: 50rem; */
+        height: 50rem;
+    }
 }
 
-.item2 {
-    width: 25vw;
-    object-fit: cover;
-}
-
-.item3 {
-    width: 25vw;
-    
-}
-
-.item4 {
-    width: 25vw;
-    
-}
