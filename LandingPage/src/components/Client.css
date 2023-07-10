@@ -2,6 +2,7 @@
 
 p{
     font-family: 'Barlow', sans-serif;
+    
     font-size: 12px;
     color: hsl(210, 4%, 67%);
 }
@@ -37,7 +38,7 @@ h3{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0 15rem;
+    padding: 0 14rem;
 
 }
 
@@ -52,12 +53,12 @@ h3{
 }
 
 .client-grid-container{
-padding: 5rem;
+padding: 4rem;
 
 }
 
 .cards{
-    padding: 3rem;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(3,2fr);
 } 
@@ -80,8 +81,14 @@ padding: 5rem;
 }
 .clients p{
     color: hsl(212, 27%, 19%);
+    
     font-size: 15px;
     margin-bottom: 3rem;
+}
+
+.info h5{
+    margin-bottom: 5px;
+    font-size: 15px;
 }
 
 .info p{
@@ -89,18 +96,8 @@ padding: 5rem;
     color: hsl(210, 4%, 67%);
     font-size: 12px;
 }
-.info h5{
-    margin-bottom: 5px;
-    font-size: 15px;
-}
 
 
-/* @media screen and (max-width: 1400px) and (min-width: 1099px) {
-.text{
-    padding: 5rem;
-}
-
-} */
 
 
 
